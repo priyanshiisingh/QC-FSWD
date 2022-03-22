@@ -41,6 +41,6 @@ app.get("*", (req, res) => {
 app.use(cors());
 
 //server listening
-app.listen(process.env.PORT || PORT, () => {
-  console.log(`Listening on port no ${PORT}`);
+app.listen(5000 || 8080, () => {
+  console.log(`Listening on port no 5000`);
 });
